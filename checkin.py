@@ -5,12 +5,12 @@ import random
 import requests
 
 
-CHECKIN_URL = "https://glados.cloud/api/user/checkin"
-STATUS_URL = "https://glados.cloud/api/user/status"
+CHECKIN_URL = "https://glados.rocks/api/user/checkin"
+STATUS_URL = "https://glados.rocks/api/user/status"
 
 HEADERS_BASE = {
-    "origin": "https://glados.cloud",
-    "referer": "https://glados.cloud/console/checkin",
+    "origin": "https://glados.rocks",
+    "referer": "https://glados.rocks/console/checkin",
     "user-agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -19,7 +19,7 @@ HEADERS_BASE = {
     "content-type": "application/json;charset=UTF-8",
 }
 
-PAYLOAD = {"token": "glados.cloud"}
+PAYLOAD = {"token": "glados.rocks"}
 TIMEOUT = 10
 
 
